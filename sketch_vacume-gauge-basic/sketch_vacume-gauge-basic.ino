@@ -1,16 +1,12 @@
 void setup() {
-  // initialize serial communication at 9600 bits per second:
+  
   Serial.begin(9600);
+  
 }
 
-// the loop routine runs over and over again forever:
+
 void loop() {
-  /*
-  int sensor1Value = analogRead(A0);
-  int sensor2Value = analogRead(A1);
-  int sensor3Value = analogRead(A2);
-  int sensor4Value = analogRead(A3);
-  */
+
   int sensorvalue[] = {analogRead(A0),analogRead(A1),analogRead(A2),analogRead(A3)};
   
   float input = 4.75;
