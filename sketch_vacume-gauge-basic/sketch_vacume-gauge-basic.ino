@@ -13,7 +13,7 @@ void loop() {
   
   float kPa[4] ;
 
-  for (int i=0;i<=4;i++){
+  for (int i=0;i<4;i++){
     kPa[i] = voutkPa(sensorvalue[i],input);
   }
 
